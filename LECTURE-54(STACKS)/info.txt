@@ -1,0 +1,6 @@
+1. basic stack usuage in the STL
+2.Implement the stack class with array 
+3. Implement the stack class with vector
+4. Implement the stack class with Link list 
+5. Implement two stacks in array 
+
