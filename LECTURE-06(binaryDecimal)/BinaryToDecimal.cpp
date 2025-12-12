@@ -1,18 +1,18 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Binary Number Representation to Decimal Number Form Conversion: You will given a binary representation of number and we need to return the corresponding decimal number to it 
-
+// Binary Number Representation to Decimal Number Form Conversion: You will given a binary representation of number and we need to return the corresponding decimal number to it
 
 int main()
 {
     int n, ld = 0, ans = 0, i = 0;
-    cout<<"Enter any binary representation of a number " ;
-    cin >> n; // give the binary input in form of 0s and 1s which is actual an integer 
+    cout << "Enter any binary representation of a number ";
+    cin >> n; // give the binary input in form of 0s and 1s which is actual an integer
     while (n != 0)
     { // last digit concept using the modulo operator
         ld = n % 10;
-       if (ld ==1 ) ans = ld * (pow(2, i)) + ans; // Main Formula
+        if (ld == 1)
+            ans = ld * (pow(2, i)) + ans; // Main Formula
         i++;
         // update the number
         n = n / 10;

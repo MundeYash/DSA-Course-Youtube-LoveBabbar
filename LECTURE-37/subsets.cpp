@@ -5,7 +5,7 @@ using namespace std;
 
 void print(vector<vector<int>> ans, int n)
 {
-    for (int i = 0; i < ans.size(); i++)
+    for (int i = ans.size() - 1; i >= 0; i--)
     {
         for (int j = 0; j < ans[i].size(); j++)
         {

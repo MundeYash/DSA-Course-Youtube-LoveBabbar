@@ -42,7 +42,7 @@ int main()
     //  cout<<"prime"<<endl;
     // }
 
-         // Lower case  , upper Case and numberic identify the entered character
+    // Lower case  , upper Case and numberic identify the entered character
     // char c;
     // cin >> c;
     // if (c >= 'a' and c <= 'z')
@@ -62,22 +62,22 @@ int main()
     //     cout << "Wrong input entered " << endl;
     // }
 
-            // find sum of all odd and even numbers from 1 to n
-            // int n ; 
-            // cin>> n ; 
-            // int sum1=0 , sum2 =0 ; 
-            // int num = 1 ; 
-            // while (num <=n ){
-            //     if (num%2==0){
-            //         sum1+= num ; 
-            //     }
-            //     else {
-            //         sum2+= num ; 
-            //     }
-            //     num++ ;
-            // }
-            //  cout<<"EvenSum: "<<sum1<<endl;
-            //  cout<<"OddSum: "<<sum2<<endl;
+    // find sum of all odd and even numbers from 1 to n
+    // int n ;
+    // cin>> n ;
+    // int sum1=0 , sum2 =0 ;
+    // int num = 1 ;
+    // while (num <=n ){
+    //     if (num%2==0){
+    //         sum1+= num ;
+    //     }
+    //     else {
+    //         sum2+= num ;
+    //     }
+    //     num++ ;
+    // }
+    //  cout<<"EvenSum: "<<sum1<<endl;
+    //  cout<<"OddSum: "<<sum2<<endl;
     //  convert the fahrenhiet to celcius
     return 0;
 }

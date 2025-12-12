@@ -27,12 +27,12 @@ int main()
     // {
 
     //     cube_value += (i * i * i);
-        
+
     // }
     // cout << "\nCube sum of n terms is :" << cube_value << endl;
 
-    string s ; 
-    cin>> s ;
-    cout<<s ; 
+    string s;
+    cin >> s;
+    cout << s;
     return 0;
 }
